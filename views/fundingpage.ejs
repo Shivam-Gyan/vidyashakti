@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VidyaShakti-Fundraiser</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/mediaquery.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .content-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+
+            width: 98%;
+            margin-top: 8%;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 18px;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        a.button {
+            background-color: #f40776;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 35px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.1s ease-in-out;
+            font-size: large;
+        }
+
+        a.button:hover {
+            background-color: #d2065c;
+        }
+        p {
+            color: rgb(25, 25, 25);
+            margin-bottom: 12px;
+        }
+
+/*New Div ---------------------*/
+    
+.active-funds {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px; /* Add margin for separation from the user information */
+    width: 98%;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.active-funds h2 {
+    color: rgb(25, 25, 25);    margin-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fund-info {
+    display: flex;
+    flex-direction: column; /* Display items vertically */
+    align-items: flex-start; /* Left align items */
+    margin-bottom: 12px; /* Adjusted margin for better spacing */
+}
+
+.fund-info i {
+    font-size: 24px; /* Adjust the icon size as needed */
+    margin-bottom: 8px; /* Space between icon and text */
+}
+
+.fund-info span {
+    color: rgb(25, 25, 25);    margin-bottom: 9px; /* Adjusted margin for better spacing */
+}
+
+.fund-info a {
+    color: #f40776;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.fund-info a:hover {
+    color: #d2065c;
+}
+.heading{
+    
+    color: #f40776;
+}
+.title{
+    color: #d2065c;
+}
+
+
+
+
+
+
+
+
+        
+
+
+@media (max-width: 480px) {
+            .content-container {
+                margin-top: 30%;
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <div class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="logo">
+        </div>
+        <div class="bar">
+
+            <nav>
+                <input type="checkbox" name="" id="click" onclick="updatemenu()">
+                <label for="click" class="menu-btn">
+                    <i id="icon1" class="ri-list-check"></i>
+
+
+                </label>
+                <ul>
+                    <li><a href="/userpage">Home</a></li>
+                    <li><a href="/#about-us">About us</a></li>
+                    <li><a href="/#contact-us">Contact Us</a></li>
+                    <li><a href="/">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    
+</body>
+
+</html>
